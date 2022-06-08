@@ -14,6 +14,9 @@
 		7CC9CAE828511BD600D68845 /* ios_mobile_trading_systemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9CAE728511BD600D68845 /* ios_mobile_trading_systemTests.swift */; };
 		7CC9CAF228511BD600D68845 /* ios_mobile_trading_systemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9CAF128511BD600D68845 /* ios_mobile_trading_systemUITests.swift */; };
 		7CC9CAF428511BD600D68845 /* ios_mobile_trading_systemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9CAF328511BD600D68845 /* ios_mobile_trading_systemUITestsLaunchTests.swift */; };
+		7CC9CB0528511D4200D68845 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9CB0428511D4200D68845 /* StockViewModel.swift */; };
+		7CC9CB0728511F3900D68845 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9CB0628511F3900D68845 /* Instrument.swift */; };
+		7CC9CB09285120CD00D68845 /* MobileTradingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9CB08285120CD00D68845 /* MobileTradingSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7CC9CAED28511BD600D68845 /* ios-mobile-trading-systemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-mobile-trading-systemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC9CAF128511BD600D68845 /* ios_mobile_trading_systemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_mobile_trading_systemUITests.swift; sourceTree = "<group>"; };
 		7CC9CAF328511BD600D68845 /* ios_mobile_trading_systemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_mobile_trading_systemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CC9CB0428511D4200D68845 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		7CC9CB0628511F3900D68845 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		7CC9CB08285120CD00D68845 /* MobileTradingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileTradingSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 				7CC9CB0128511C0100D68845 /* Views */,
 				7CC9CB0028511BFA00D68845 /* ViewModel */,
 				7CC9CADC28511BD500D68845 /* Preview Content */,
+				7CC9CB08285120CD00D68845 /* MobileTradingSystem.swift */,
 			);
 			path = "ios-mobile-trading-system";
 			sourceTree = "<group>";
@@ -134,6 +141,7 @@
 		7CC9CB0028511BFA00D68845 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7CC9CB0428511D4200D68845 /* StockViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -155,6 +163,7 @@
 		7CC9CB0328511C4800D68845 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				7CC9CB0628511F3900D68845 /* Instrument.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -289,6 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC9CB09285120CD00D68845 /* MobileTradingSystem.swift in Sources */,
+				7CC9CB0728511F3900D68845 /* Instrument.swift in Sources */,
+				7CC9CB0528511D4200D68845 /* StockViewModel.swift in Sources */,
 				7CC9CAD928511BD300D68845 /* ContentView.swift in Sources */,
 				7CC9CAD728511BD300D68845 /* ios_mobile_trading_systemApp.swift in Sources */,
 			);
